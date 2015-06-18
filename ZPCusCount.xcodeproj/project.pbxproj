@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E56E4BB1B325A7D002D0A73 /* CusSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56E4B51B325A7D002D0A73 /* CusSegment.m */; };
+		7E56E4BC1B325A7D002D0A73 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56E4B71B325A7D002D0A73 /* plus@2x.png */; };
+		7E56E4BD1B325A7D002D0A73 /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56E4B81B325A7D002D0A73 /* plus@3x.png */; };
+		7E56E4BE1B325A7D002D0A73 /* reduce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56E4B91B325A7D002D0A73 /* reduce@2x.png */; };
+		7E56E4BF1B325A7D002D0A73 /* reduce@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E56E4BA1B325A7D002D0A73 /* reduce@3x.png */; };
 		7EB396451B3256A400DB1109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB396441B3256A400DB1109 /* main.m */; };
 		7EB396481B3256A400DB1109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB396471B3256A400DB1109 /* AppDelegate.m */; };
 		7EB3964B1B3256A400DB1109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3964A1B3256A400DB1109 /* ViewController.m */; };
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E56E4B41B325A7D002D0A73 /* CusSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusSegment.h; sourceTree = "<group>"; };
+		7E56E4B51B325A7D002D0A73 /* CusSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusSegment.m; sourceTree = "<group>"; };
+		7E56E4B71B325A7D002D0A73 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		7E56E4B81B325A7D002D0A73 /* plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@3x.png"; sourceTree = "<group>"; };
+		7E56E4B91B325A7D002D0A73 /* reduce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reduce@2x.png"; sourceTree = "<group>"; };
+		7E56E4BA1B325A7D002D0A73 /* reduce@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reduce@3x.png"; sourceTree = "<group>"; };
 		7EB3963F1B3256A400DB1109 /* ZPCusCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPCusCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB396431B3256A400DB1109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB396441B3256A400DB1109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +71,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E56E4B31B325A7D002D0A73 /* CusChoiceMent */ = {
+			isa = PBXGroup;
+			children = (
+				7E56E4B41B325A7D002D0A73 /* CusSegment.h */,
+				7E56E4B51B325A7D002D0A73 /* CusSegment.m */,
+			);
+			path = CusChoiceMent;
+			sourceTree = "<group>";
+		};
+		7E56E4B61B325A7D002D0A73 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7E56E4B71B325A7D002D0A73 /* plus@2x.png */,
+				7E56E4B81B325A7D002D0A73 /* plus@3x.png */,
+				7E56E4B91B325A7D002D0A73 /* reduce@2x.png */,
+				7E56E4BA1B325A7D002D0A73 /* reduce@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		7EB396361B3256A400DB1109 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				7EB396471B3256A400DB1109 /* AppDelegate.m */,
 				7EB396491B3256A400DB1109 /* ViewController.h */,
 				7EB3964A1B3256A400DB1109 /* ViewController.m */,
+				7E56E4B31B325A7D002D0A73 /* CusChoiceMent */,
+				7E56E4B61B325A7D002D0A73 /* image */,
 				7EB3964C1B3256A400DB1109 /* Main.storyboard */,
 				7EB3964F1B3256A400DB1109 /* Images.xcassets */,
 				7EB396511B3256A400DB1109 /* LaunchScreen.xib */,
@@ -199,9 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E56E4BE1B325A7D002D0A73 /* reduce@2x.png in Resources */,
+				7E56E4BC1B325A7D002D0A73 /* plus@2x.png in Resources */,
 				7EB3964E1B3256A400DB1109 /* Main.storyboard in Resources */,
 				7EB396531B3256A400DB1109 /* LaunchScreen.xib in Resources */,
+				7E56E4BF1B325A7D002D0A73 /* reduce@3x.png in Resources */,
 				7EB396501B3256A400DB1109 /* Images.xcassets in Resources */,
+				7E56E4BD1B325A7D002D0A73 /* plus@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB3964B1B3256A400DB1109 /* ViewController.m in Sources */,
+				7E56E4BB1B325A7D002D0A73 /* CusSegment.m in Sources */,
 				7EB396481B3256A400DB1109 /* AppDelegate.m in Sources */,
 				7EB396451B3256A400DB1109 /* main.m in Sources */,
 			);
@@ -416,6 +454,7 @@
 				7EB396641B3256A400DB1109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EB396651B3256A400DB1109 /* Build configuration list for PBXNativeTarget "ZPCusCountTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				7EB396671B3256A400DB1109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C5D4BDF7-8CA6-4130-ADC1-049410727C2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZPCusCount</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFE2328B76039E2CB0D39CDCB7411AF29DA499CB</key>
+		<string>https://github.com/GeekZP/ZPCusCount.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZPCusCount.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFE2328B76039E2CB0D39CDCB7411AF29DA499CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GeekZP/ZPCusCount.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFE2328B76039E2CB0D39CDCB7411AF29DA499CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFE2328B76039E2CB0D39CDCB7411AF29DA499CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZPCusCount</string>
+		</dict>
+	</array>
+</dict>
+</plist>
